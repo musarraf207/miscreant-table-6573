@@ -1,28 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>1MG</title>
-    <link rel="stylesheet" href="navbar.css">
-</head>
-<body>
+    <link rel="stylesheet" href="navbar.css" />
+  </head>
+  <body>
     <div id="navbar-p">
+      <div>
         <div>
-            <div>
-                <img src="https://www.1mg.com/images/tata_1mg_logo.svg" alt="">
-                <p>MEDICINES</p>
-                <p>LAB TESTS</p>
-                <p>CONSULT DOCTORS</p>
-                <p>COVID-19</p>
-                <p>AYURVEDA</p>
-                <p>CARE PLANE <button >Save More</button></p>
-            </div>
-            <div></div>
+          <img src="https://www.1mg.com/images/tata_1mg_logo.svg" alt="" />
+          <p>MEDICINES</p>
+          <p>LAB TESTS<button>SAFE</button></p>
+          <p>CONSULT DOCTORS</p>
+          <p>COVID-19</p>
+          <p>AYURVEDA</p>
+          <p>CARE PLANE <button>Save More</button></p>
+        </div>
+        <div>
+          <div>
+            <p>Login</p>
+            <p>|</p>
+            <p>Sign up</p>
+          </div>
+          <div><p>offer</p></div>
+          <div>
+            <img
+              src="data:image/png;base64,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"
+              alt=""
+            />
+          </div>
+          <div>
+            <p>Need Help?</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div>
+<div><button>
+    <img src="https://cdn-icons-png.flaticon.com/512/67/67347.png"/>
+    <h3 New Delhi/>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz2hLXLy2YkBxGn4d2JwfQxFiWwSG3xkQaknIQqihlE6djZ6RLTg8AxyFubYRrgVI9rME&usqp=CAU"/>
+</button></div>
+<div><button></button></div>
+
+          </div>
+          <div>
+
+          </div>
         </div>
         <div></div>
-        <div></div>
+      </div>
+      <div></div>
     </div>
-</body>
+  </body>
 </html>
